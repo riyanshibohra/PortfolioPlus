@@ -589,4 +589,4 @@ def get_stock_price(symbol):
         return jsonify({'error': 'Failed to fetch stock price'}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5002)
+    app.run(debug=True, port=5001)
